@@ -1,0 +1,241 @@
+/* RESETING AND HEADER */
+@import "style.css";
+/* END OF RESETING AND HEADER */
+
+
+/* MAIN */
+
+.main {
+}
+.leaderboard {
+    padding: 0 50px;
+
+}
+.leaderboard__title {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 69px;
+    color: #D8DEE9;
+    margin-bottom: 44px;
+}
+@media (max-width: 1200px) {
+  .leaderboard__title {
+    font-size: 33px;
+  }
+}
+@media (max-width: 768px) {
+  .leaderboard__title {
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .leaderboard__title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+.leaderboard__users-list {
+}
+
+.users-list {
+
+}
+
+
+.users-list > li {
+  margin-bottom: 10px;
+}
+
+.users-list > li:nth-child(odd) {
+  border-radius: 20px;
+  background-color: #646669;
+}
+
+.users-list > li:first-child {
+  padding-left: 28px;
+}
+@media (max-width: 1200px) {
+  .users-list > li:first-child {
+    padding-left: 17px;
+  }
+}
+
+.users-list > li:first-child > div[class="user-data__nick-name"] > svg {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 1200px) {
+  .users-list > li:first-child > div[class="user-data__nick-name"] > svg {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (max-width: 480px) {
+  .users-list > li:first-child > div[class="user-data__nick-name"] > svg {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+.users-list > li:first-child > div[class="user-data__nick-name"] {
+  gap: 13px;
+}
+@media (max-width: 1200px) {
+  .users-list > li:first-child > div[class="user-data__nick-name"] {
+    gap: 9px;
+  }
+}
+
+.users-list__user-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 33px;
+}
+@media (max-width: 1200px) {
+  .users-list__user-data {
+    padding: 8px 22px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .users-list__user-data {
+    flex-direction: column;
+    gap: 10px;
+    padding: 9px 22px;
+  }
+}
+
+.user-data {
+}
+
+.user-data__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.user-data__cards-data {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.user-data__guessed-cards-title {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(216, 222, 233, 0.75);
+}
+
+.user-data__guessed-cards {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #D8DEE9;
+}
+
+
+.user-data__nick-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+@media (max-width: 1200px) {
+  .user-data__nick-name {
+    gap: 15px;
+  }
+}
+
+.user-data__position {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    color: #D8DEE9;
+}
+@media (max-width: 1200px) {
+  .user-data__position {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1200px) {
+  .user-data__position {
+    font-size: 20px;
+  }
+}
+
+.user-data__name {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    color: #D8DEE9;
+}
+@media (max-width: 1200px) {
+  .user-data__name {
+    font-size: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .user-data__name {
+    font-size: 20px;
+  }
+}
+
+.user-data__user-pts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+@media (max-width: 1200px) {
+  .user-data__user-pts {
+    gap: 10px;
+  }
+}
+.user-data__pts {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(216, 222, 233, 0.75);
+}
+@media (max-width: 1200px) {
+  .user-data__pts {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .user-data__pts {
+    font-size: 14px;
+  }
+}
+
+.user-data__speed {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #D8DEE9;
+}
+@media (max-width: 1200px) {
+  .user-data__speed {
+    font-size: 19px;
+  }
+}
+@media (max-width: 480px) {
+  .user-data__speed {
+    font-size: 16px;
+  }
+}

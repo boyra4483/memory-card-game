@@ -1,0 +1,95 @@
+/* RESETTING  AND MAIN HEADER*/
+@import "style.css";
+/* THE ENDS OF HEADER AND RESETTING */
+
+
+/* MAIN */
+.main {
+
+}
+
+.info {
+    margin-left: 33px;
+}
+@media (max-width: 768px) {
+    .info {
+        margin-left: 0;
+    }
+}
+
+.info__title {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(216, 222, 233, 0.75);
+    padding-bottom: 25px;
+}
+@media (max-width: 1200px) {
+    .info__title {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .info__title {
+        font-size: 32px;
+        padding-bottom: 11px;
+    }
+}
+@media (max-width: 768px) {
+    .info__title {
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+}
+@media (max-width: 480px) {
+    .info__title {
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+}
+
+.info__text-container p{
+    margin-bottom: 29px;
+}
+@media (max-width: 1200px) {
+    .info__text-container p {
+        margin-bottom: 22px;
+    }
+}
+@media (max-width: 1024px) {
+    .info__text-container p {
+        margin-bottom: 19px;
+    }
+}
+@media (max-width: 768px) {
+    .info__text-container p {
+        margin-bottom: 14px;
+    }
+}
+
+.info__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: #D8DEE9;
+}
+@media (max-width: 1200px) {
+    .info__text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .info__text {
+        font-size: 19px;
+    }
+}
+@media (max-width: 480px) {
+    .info__text {
+        font-size: 15px;
+    }
+}

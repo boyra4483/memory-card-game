@@ -1,0 +1,180 @@
+/* RESETTING  AND MAIN HEADER*/
+@import "style.css";
+/* THE ENDS OF HEADER AND RESETTING */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.main {
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.authorization {
+  display: flex;
+  width: 345px;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.authorization__ressetingStatus {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #14bd21;
+  margin-top: -10px;
+}
+
+.authorization__nickname {
+  padding: 17px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #bbbbbb;
+  background-color: #282828;
+  position: relative;
+}
+.authorization__nickname[class~="error"],
+.authorization__email[class~="error"],
+.authorization__password[class~="error"] {
+  border: 1px solid red;
+}
+.nickname-error,
+.email-error,
+.password-error,
+.authorization > div[class="firebase-error"]{
+  color: red;
+  overflow-wrap: break-word;
+  margin-top: -10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.authorization__email {
+  padding: 17px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #bbbbbb;
+  background-color: #282828;
+}
+
+.authorization__password {
+  padding: 17px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #bbbbbb;
+  background-color: #282828;
+}
+.authorization__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.authorization__button {
+  flex: 1;
+  padding: 17px 19px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #282525;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+.authorization__wrapper > svg {
+  width: 41px;
+  height: 51px;
+  cursor: pointer;
+}
+.authorization__wrapper > svg > path {
+  fill: #5c5c5c;
+}
+
+.fingerprint-authentication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 269px;
+  padding: 58px 68px;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  background-color: #1F1F1F;
+  display: none;
+}
+
+.fingerprint-authentication > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+
+.fingerprint-authentication > svg {
+  width: 112px;
+  height: 143;
+}
+.fingerprint-authentication > svg > path {
+  fill: #5c5c5c;
+}
+
+.auxiliary-links {
+  display: flex;
+  gap: 50px;
+  align-items: start;
+  justify-content: space-between;
+}
+.auxiliary-links__forget-password {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #6C6C6C;
+  cursor: pointer;
+}
+
+.auxiliary-links__register, .auxiliary-links__login{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #6C6C6C;
+  cursor: pointer;
+}
