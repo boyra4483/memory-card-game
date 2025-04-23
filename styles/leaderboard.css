@@ -2,23 +2,18 @@
 @import "style.css";
 /* END OF RESETING AND HEADER */
 
-
 /* MAIN */
-
-.main {
-}
 .leaderboard {
-    padding: 0 50px;
-
+  padding: 0 50px;
 }
 .leaderboard__title {
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 69px;
-    color: #D8DEE9;
-    margin-bottom: 44px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 69px;
+  color: #d8dee9;
+  margin-bottom: 44px;
 }
 @media (max-width: 1200px) {
   .leaderboard__title {
@@ -39,15 +34,6 @@
     margin-bottom: 20px;
   }
 }
-
-
-.leaderboard__users-list {
-}
-
-.users-list {
-
-}
-
 
 .users-list > li {
   margin-bottom: 10px;
@@ -94,10 +80,10 @@
 }
 
 .users-list__user-data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 13px 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 33px;
 }
 @media (max-width: 1200px) {
   .users-list__user-data {
@@ -113,12 +99,11 @@
   }
 }
 
-.user-data {
-}
-
 .user-data__wrapper {
   display: flex;
+  width: 401px;
   align-items: center;
+  justify-content: space-between;
   gap: 60px;
 }
 
@@ -129,7 +114,7 @@
 }
 
 .user-data__guessed-cards-title {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -137,19 +122,18 @@
 }
 
 .user-data__guessed-cards {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
-
 .user-data__nick-name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
 @media (max-width: 1200px) {
   .user-data__nick-name {
@@ -158,11 +142,11 @@
 }
 
 .user-data__position {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33px;
-    color: #D8DEE9;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  color: #d8dee9;
 }
 @media (max-width: 1200px) {
   .user-data__position {
@@ -176,11 +160,11 @@
 }
 
 .user-data__name {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33px;
-    color: #D8DEE9;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  color: #d8dee9;
 }
 @media (max-width: 1200px) {
   .user-data__name {
@@ -194,10 +178,10 @@
 }
 
 .user-data__user-pts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  gap: 14px;
 }
 @media (max-width: 1200px) {
   .user-data__user-pts {
@@ -205,11 +189,11 @@
   }
 }
 .user-data__pts {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: rgba(216, 222, 233, 0.75);
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(216, 222, 233, 0.75);
 }
 @media (max-width: 1200px) {
   .user-data__pts {
@@ -223,11 +207,11 @@
 }
 
 .user-data__speed {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    color: #D8DEE9;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #d8dee9;
 }
 @media (max-width: 1200px) {
   .user-data__speed {
